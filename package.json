@@ -1,12 +1,19 @@
 {
-  "name": "strapi-plugin-sitemap",
+  "name": "@jackboxgames/strapi-plugin-sitemap",
   "version": "3.1.0",
-  "description": "Generate a highly customizable sitemap XML in Strapi CMS.",
+  "description": "Generate a highly customizable sitemap XML in Strapi CMS. (JBG)",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jackboxgames/strapi-plugin-sitemap.git"
+  },    
   "strapi": {
     "displayName": "Sitemap",
     "name": "sitemap",
     "icon": "sitemap",
-    "description": "Generate a highly customizable sitemap XML in Strapi CMS.",
+    "description": "Generate a highly customizable sitemap XML in Strapi CMS. (JBG)",
     "required": false,
     "kind": "plugin"
   },
